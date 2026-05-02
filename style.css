@@ -96,3 +96,72 @@
     user-select: none;
     visibility: hidden;
 }
+
+.words {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-family: "bangers";
+    font-size: 60px;
+    text-shadow: 1px 1px 2px black;
+    color:rgb(255, 255, 255);
+    border-radius: 50px;
+    background-color: rgb(255, 81, 0);
+    width: 150px;
+    height: 90px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+    user-select: none;
+}
+
+#word1 {
+    left: 100px;
+    top: 20px;
+}
+
+#word2 {
+    left: 100px;
+    top: 120px;
+}
+
+#word3 {
+    left: 100px;
+    top: 220px;
+}
+
+#word4 {
+    left: 100px;
+    top: 320px;
+}
+
+#word5 {
+    left: 100px;
+    top: 420px;
+}
+
+#word6 {
+    left: 100px;
+    top: 520px;
+}
+
+#word7 {
+    left: 100px;
+    top: 520px;
+}
+
+#word8 {
+    left: 100px;
+    top: 620px;
+}
+
+#word9 {
+    left: 100px;
+    top: 720px;
+}
+
+#word10 {
+    left: 100px;
+    top: 820px;
+}

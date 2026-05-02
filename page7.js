@@ -22,10 +22,10 @@ input1.addEventListener('keyup', (e) => {
 })
 
 input2.addEventListener('keyup', (e) => {
-    if(input2.value === "go" || input2.value === "go") {
-        word5.style.backgroundColor = 'lime'
-        word5.style.color = 'red'
-        word5.style.boxShadow = 'none'
+    if(input2.value === "get" || input2.value === "get") {
+        word6.style.backgroundColor = 'lime'
+        word6.style.color = 'red'
+        word6.style.boxShadow = 'none'
         input2.style.color = 'green'
         const audio = document.getElementById('right')
         audio.play()

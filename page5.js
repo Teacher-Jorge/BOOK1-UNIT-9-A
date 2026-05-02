@@ -1,5 +1,6 @@
-
 const play = document.getElementById('play')
+
+const word5 = document.getElementById('word5')
 
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
@@ -22,6 +23,9 @@ input1.addEventListener('keyup', (e) => {
 
 input2.addEventListener('keyup', (e) => {
     if(input2.value === "go" || input2.value === "go") {
+        word5.style.backgroundColor = 'lime'
+        word5.style.color = 'red'
+        word5.style.boxShadow = 'none'
         input2.style.color = 'green'
         const audio = document.getElementById('right')
         audio.play()

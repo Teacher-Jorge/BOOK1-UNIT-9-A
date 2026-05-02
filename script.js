@@ -1,5 +1,8 @@
 const play = document.getElementById('play')
 
+const word1 = document.getElementById('word1')
+
+
 const input1 = document.getElementById('input1')
 const input2 = document.getElementById('input2')
 const input3 = document.getElementById('input3')
@@ -20,6 +23,9 @@ input1.addEventListener('keyup', (e) => {
 
 input2.addEventListener('keyup', (e) => {
     if(input2.value === "ride") {
+        word1.style.backgroundColor = 'lime'
+        word1.style.color = 'red'
+        word1.style.boxShadow = 'none'
         input2.style.color = 'green'
         const audio = document.getElementById('right')
         audio.play()
